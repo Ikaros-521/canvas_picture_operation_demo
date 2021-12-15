@@ -1,0 +1,95 @@
+body {
+	font-family: MicrosoftYaHei;
+	background: antiquewhite;
+}
+
+div#title_div {
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0px 20px 0px;
+}
+
+div#canvas_div {
+    text-align: center;
+}
+
+canvas#canvas {
+	border: 5px solid black;
+}
+
+canvas#canvas2 {
+	border: 2px solid black;
+	background: white;
+}  
+
+div#boundary_div {
+    margin-top: 20px;
+	text-align: center;
+}
+
+div#info_div {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* input输入框的标准 */
+.input_common {
+	padding: 0px 4px 0px 8px;
+	background: #FFFFFF;
+	border: 1px solid #C4C6CF;
+	border-radius: 3px;
+	width: 100px;
+	height: 32px;
+}
+
+#C_x, #C_y, #M_x, #M_y, #R_x, #R_y, #RB_x, #RB_y {
+	width: 70px;
+}
+
+.button_common {
+	background: #3D7CFF;
+
+	font-family: PingFangSC-Regular;
+	color: #FFFFFF;
+
+	height: 32px;
+
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+span#is_inside_msg {
+    margin-left: 40px;
+}
+
+/* bottom */
+#bottom {
+	margin: 0 auto;
+    width: 100%;
+    font-family: MicrosoftYaHei;
+    font-weight: 410;
+    font-style: normal;
+    font-size: 12px;
+    color: #CCCCCC;
+    line-height: 24px;
+    position: fixed;
+    bottom: 10px;
+}
+
+/* 版权 */
+#copyright {
+	text-align: center;
+	color: #666666;
+	letter-spacing: 0.86px;
+	font-family: MicrosoftYaHei;
+	font-weight: 410;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+/* 公司名 */
+#bottom #official {
+	cursor: pointer;
+}
